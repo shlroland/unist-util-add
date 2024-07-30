@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "_version": "20.1.0",
+  "extends": "@tsconfig/node-lts/tsconfig.json",
+  "exclude": ["lib/", "node_modules/"],
+  "compilerOptions": {
+    "module": "Preserve",
+    "moduleResolution": "Bundler",
+    "newLine": "lf",
+    "declaration": true
+  }
+}

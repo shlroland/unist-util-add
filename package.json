@@ -1,0 +1,46 @@
+{
+  "name": "unist-util-add",
+  "version": "1.0.0",
+  "description": "remark plugin to support highlight mark",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "unist",
+    "unist-util",
+    "util",
+    "utility",
+    "remark",
+    "retext",
+    "rehype",
+    "remark-plugin",
+    "unified",
+    "add",
+    "markdown",
+    "html",
+    "xml",
+    "tree",
+    "ast"
+  ],
+  "repository": "https://github.com/shlroland/unist-util-add",
+  "bugs": "https://github.com/shlroland/unist-util-add/issues",
+  "author": "shlroland <shlroland1995@gmail.com>",
+  "sideEffects": false,
+  "type": "module",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@tsconfig/node-lts": "^20.1.3",
+    "mdast-util-from-markdown": "^2.0.1",
+    "mdast-util-to-markdown": "^2.1.0",
+    "micromark-util-types": "^2.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-stringify": "^11.0.0",
+    "tsup": "^8.2.3",
+    "typescript": "^5.5.4",
+    "unified": "^11.0.5"
+  }
+}
