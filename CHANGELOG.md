@@ -1,5 +1,11 @@
 # unist-util-add
 
+## 1.1.0
+
+### Minor Changes
+
+- 8614b8a: add `README.md`
+
 ## 1.0.2
 
 ### Patch Changes
