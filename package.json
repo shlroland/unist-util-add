@@ -1,7 +1,7 @@
 {
   "name": "unist-util-add",
   "version": "1.0.2",
-  "description": "remark plugin to support highlight mark",
+  "description": "unist utility to add extension",
   "license": "MIT",
   "engines": {
     "node": ">=18"
