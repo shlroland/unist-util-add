@@ -19,13 +19,25 @@ export function add(
 export function add(
   data: Data,
   field: 'fromMarkdownExtensions',
-  value: FromMarkdownExtension
+  value: FromMarkdownExtension | FromMarkdownExtension[]
 ): void
 export function add(
   data: Data,
-  field: 'micromarkExtensions' | 'fromMarkdownExtensions' | 'toMarkdownExtensions',
-  value: ToMarkdownExtension | MicromarkExtension | FromMarkdownExtension
+  field:
+    | 'micromarkExtensions'
+    | 'fromMarkdownExtensions'
+    | 'toMarkdownExtensions',
+  value:
+    | ToMarkdownExtension
+    | MicromarkExtension
+    | FromMarkdownExtension
+    | FromMarkdownExtension[]
 ): void {
+  if(Array.isArray(value)) {
+    data.fromMarkdownExtensions ??= []
+    data.fromMarkdownExtensions.push(value)
+    return
+  }
   if (data[field]) data[field].push(value)
   else data[field] = [value]
 }

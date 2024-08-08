@@ -5,5 +5,6 @@ export default defineConfig({
   splitting: false,
   format: 'esm',
   dts: true,
-  outDir: './'
+  outDir: './',
+  target: 'es2018'
 })
