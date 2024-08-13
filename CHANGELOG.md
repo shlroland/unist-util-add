@@ -1,5 +1,11 @@
 # unist-util-add
 
+## 1.2.0
+
+### Minor Changes
+
+- ef11494: remove unused type
+
 ## 1.1.0
 
 ### Minor Changes
