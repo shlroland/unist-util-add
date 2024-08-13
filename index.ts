@@ -1,7 +1,7 @@
 /// <reference types="remark-parse" />
 /// <reference types="remark-stringify" />
 
-import type { Data, Settings } from 'unified'
+import type { Data } from 'unified'
 import type { Options as ToMarkdownExtension } from 'mdast-util-to-markdown'
 import type { Extension as MicromarkExtension } from 'micromark-util-types'
 import type { Extension as FromMarkdownExtension } from 'mdast-util-from-markdown'
